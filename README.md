@@ -1,12 +1,58 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and stylish React-based weather application that fetches real-time weather data using the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+![Weather App Screenshot](./screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🌍 Search weather by city name
+- 🌡️ Displays temperature, humidity, and wind speed
+- 🖼️ Dynamic weather icons based on live data
+- 🚨 Gives error for wrong or empty city name
+- ⚡ Powered by OpenWeatherMap API
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **CSS**
+- **OpenWeatherMap API**
+
+---
+
+## 🔧 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sujoy146/weather-app.git
+   cd weather-app
+2. Install dependencies:
+   npm install
+   
+3. Set up environment variables:
+
+Create a .env file in the root directory:
+  VITE_APP_ID=your_openweathermap_api_key
+  
+4. Start the development server:
+   npm run dev
+
+## 📁 Folder Structure
+
+    weather-app/
+    │
+    ├── public/
+    ├── src/
+    │   ├── assets/          # Icons and images
+    │   ├── components/
+    │   │   └── Weather.jsx  # Main weather component
+    │   └── App.jsx
+    │   └── main.jsx
+    ├── .env                 # (excluded via .gitignore)
+    ├── .gitignore
+    ├── package.json
+    └── README.md
