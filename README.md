@@ -11,7 +11,7 @@ A simple and stylish React-based weather application that fetches real-time weat
 - 🌍 Search weather by city name
 - 🌡️ Displays temperature, humidity, and wind speed
 - 🖼️ Dynamic weather icons based on live data
-- 🔄 Automatically loads weather for London on first render
+- 🚨 Gives error for wrong or empty city name
 - ⚡ Powered by OpenWeatherMap API
 
 ---
